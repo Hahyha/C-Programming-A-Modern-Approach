@@ -1,0 +1,6 @@
+i is int.
+f is float.
+d is double.
+
+d = i + f is double. i will first be converted into float when the calculation i + f is carried out.
+The result will be converted into double when the assignment is carried out.
