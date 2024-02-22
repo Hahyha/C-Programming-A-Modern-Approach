@@ -1,15 +1,8 @@
-#include <stdio.h>
+077
+It is considered to be in octal, and the result is 63 in decimal.
 
-int main() {
+0x77
+It is considered to be in hexadecimal, and the result is 119 in decimal.
     
-    //the result is 63 in octal.
-    printf("%d\n", 077);
-    
-    //the result is 119 in hexadecimal.
-    printf("%d\n", 0x77);
-    
-    //the result is 2748 in hexadecimal.
-    printf("%d\n", 0XABC);
-    
-    return 0;
-}
+0XABC
+It is considered to be in hexadecimal, and the result is 2748 in decimal.
