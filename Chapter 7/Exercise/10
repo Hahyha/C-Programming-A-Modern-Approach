@@ -1,0 +1,6 @@
+i is int.
+j is long.
+k is unsigned int.
+
+i + (int) j * k is unsigned int. Because (int) j will become unsigned int when the calculation (int) j * k is carried out. 
+And i will become unsigned int when the calculation i + [(int) j * k] is carried out.
