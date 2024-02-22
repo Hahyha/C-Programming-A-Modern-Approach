@@ -1,8 +1,15 @@
 #include <stdio.h>
-{
 
-
-
-
-return 0;
+int main() {
+    
+    //the result is 63 in octal.
+    printf("%d\n", 077);
+    
+    //the result is 119 in hexadecimal.
+    printf("%d\n", 0x77);
+    
+    //the result is 2748 in hexadecimal.
+    printf("%d\n", 0XABC);
+    
+    return 0;
 }
