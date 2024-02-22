@@ -1,0 +1,2 @@
+frac_part = f - (int) f;
+This may not always right. Because the scope of the values in float is wider than int, it might result in overflow.
