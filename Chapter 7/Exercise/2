@@ -1,0 +1,14 @@
+(a) 010E2
+    Legal.
+    
+(b) 32.1E+5
+    Legal.
+
+(c) 0790
+    Illegal. Because it starts with 0, it will be considered to be in octal form.
+
+(d) 100_000
+    Illegal. Because there is an illegal symbol in the number.
+
+(e) 3.978e-2
+    Legal.
