@@ -1,0 +1,11 @@
+(a) Days in a month
+    Short is stored 2 bytes, which is up to 255.
+
+(b) Days in a year
+    int is stored 4 bytes, which is up to 65535.
+
+(c) Minutes in a day
+    int is stored 4 bytes, which is up to 65535.
+
+(d) Seconds in a day 
+    long is stored 8 bytes, which is up to 4294967295.
