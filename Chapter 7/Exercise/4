@@ -1,0 +1,11 @@
+(a) i += c;
+    Legal.
+
+(b) c = 2 * c - 1;
+    Legal.
+
+(c) putchar(c);
+    Legal.
+
+(d) printf(c);
+    Illegal. It should be written as printf("%c", c);
