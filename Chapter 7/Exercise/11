@@ -1,0 +1,6 @@
+i is int.
+f is float.
+d is double.
+
+i * f / d is double. Because f will become double when the calculation f / d is carried out. 
+And i will become double when the calculation i * (f / d) is carried out.
