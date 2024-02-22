@@ -1,0 +1,11 @@
+(a) short unsigned int
+    Legal.
+
+(b) short float
+    Illegal. There is no short float.
+    
+(c) long double
+    Legal.
+
+(d) unsigned int
+    Legal.
