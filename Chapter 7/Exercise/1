@@ -1,8 +1,8 @@
-077
-It is considered to be in octal, and the result is 63 in decimal.
+(a) 077
+    It is considered to be in octal, and the result is 63 in decimal.
 
-0x77
-It is considered to be in hexadecimal, and the result is 119 in decimal.
+(b) 0x77
+    It is considered to be in hexadecimal, and the result is 119 in decimal.
     
-0XABC
-It is considered to be in hexadecimal, and the result is 2748 in decimal.
+(c) 0XABC
+    It is considered to be in hexadecimal, and the result is 2748 in decimal.
