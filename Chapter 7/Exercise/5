@@ -1,0 +1,11 @@
+(a) 'A'
+    Legal. In ASCII code, character A is equal to 65.
+
+(b) 0b1000001
+    Legal. This is the 65 in binary.
+
+(c) 0101
+    Legal. This is the 65 in octal.
+
+(d) 0x41
+    Legal. This is the 65 in hexadecimal.
