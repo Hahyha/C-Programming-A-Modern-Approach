@@ -2,3 +2,4 @@
 
 This is my personal practice in order to establish a solid foundation in coding skills.
 Upon the completion of this book, I'll finish "C++ How to Program" and "Fundamentals of Data Structure in C++".
+As for further practice, LeetCode, AtCoder and Codeforces will be auxiliary tools.
