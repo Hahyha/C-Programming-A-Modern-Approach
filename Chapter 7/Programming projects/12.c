@@ -4,6 +4,7 @@
 int main() {
     char operand;
     float number, result;
+    int k = 0;
     
     printf("Enter an expression: ");
     scanf("%f", &result);
@@ -21,7 +22,11 @@ int main() {
                 result *= number;
                 break;
             case '/':
-                result /= number;
+                if (number != 0) result /= number;
+                else{
+                    printf("A number can't be divided by zero.\n");
+                    k = 1;
+                }
                 break;
             default:
                 printf("There's something wrong.\n");
@@ -29,7 +34,7 @@ int main() {
         }
     }
     
-    printf("Value of expression: %f\n", result);
+    if (k = 0) printf("Value of expression: %.1f\n", result);
     
     return 0;
 }
