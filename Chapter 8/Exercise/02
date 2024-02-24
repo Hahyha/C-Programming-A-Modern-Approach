@@ -1,0 +1,2 @@
+By subtraction, one can use digit in character form as a subscript.
+For example, a['9' - '0'] is the same as a[9 - 0]
