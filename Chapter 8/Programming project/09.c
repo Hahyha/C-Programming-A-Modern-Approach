@@ -14,6 +14,7 @@ int main() {
     board[0][0] = 'A';
     srand(time(NULL));
     for (character = 'B'; character <= 'Z'; character++) {
+        if ((board[curr_pos[0]][curr_pos[1] - 1] != '.') && (board[curr_pos[0]][curr_pos[1] + 1] != '.') && (board[curr_pos[0] - 1][curr_pos[1]] != '.') && (board[curr_pos[0] + 1][curr_pos[1]] != '.')) break;
         movement = rand() % 4;
         switch (movement) {
             case 0:
