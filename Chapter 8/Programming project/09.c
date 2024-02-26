@@ -12,10 +12,9 @@ int main() {
         }
     }
     board[0][0] = 'A';
+    srand(time(NULL));
     for (character = 'B'; character <= 'Z'; character++) {
-        srand(time(NULL));
         movement = rand() % 4;
-        printf("%d\n", movement);
         switch (movement) {
             case 0:
                 if ((curr_pos[1] != 0) && (board[curr_pos[0]][curr_pos[1] - 1] == '.')) {
@@ -32,7 +31,7 @@ int main() {
                 else character--;
                 break;
             case 2:
-                if ((curr_pos[0] != 9) && (board[curr_pos[0]][curr_pos[1] + 1] == '.')) {
+                if ((curr_pos[1] != 9) && (board[curr_pos[0]][curr_pos[1] + 1] == '.')) {
                     curr_pos[1] += 1;
                     board[curr_pos[0]][curr_pos[1]] = character;
                 }
@@ -46,21 +45,14 @@ int main() {
                 else character--;
                 break;
         }
-        for (row = 0; row < 10; row++) {
-            for (column = 0; column < 10; column++) {
-                printf("%c ", board[row][column]);
-            }
-            printf("\n");
-        }
     }
     
-    /* for (row = 0; row < 10; row++) {
+    for (row = 0; row < 10; row++) {
         for (column = 0; column < 10; column++) {
             printf("%c ", board[row][column]);
         }
         printf("\n");
     }   
-    */
     
     return 0;
 }
