@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 int main() {
     int letter_frequency[26] = {0}, pos = 0, anagram = 1;
