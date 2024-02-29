@@ -20,15 +20,15 @@ int main() {
     while (number <= size * size) {
         if (square[row_pos][col_pos] == 0) square[row_pos][col_pos] = number;
         else {
-            row_pos++;
+            row_pos += 2;
+            col_pos--;
             square[row_pos][col_pos] = number;
         }
-        if (row_pos == 0) row_pos = 4;
+        if (row_pos == 0) row_pos = size - 1;
         else row_pos -= 1;
-        if (col_pos == 4) col_pos = 0;
+        if (col_pos == (size - 1)) col_pos = 0;
         else col_pos += 1;
         number++;
-        printf("%d\n", number);
     }
     
     for (row_pos = 0; row_pos < size; row_pos ++) {
