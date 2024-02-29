@@ -1,1 +1,6 @@
-
+double triangle_area(double base, double height){
+  double product;
+  product = base * height;
+  return product / 2;
+}
+This is the correct answer. Remember to identify every inputs of the function and put the { in right place.
