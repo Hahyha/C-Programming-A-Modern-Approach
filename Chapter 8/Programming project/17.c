@@ -19,6 +19,11 @@ int main() {
     
     while (number <= size * size) {
         if (square[row_pos][col_pos] == 0) square[row_pos][col_pos] = number;
+        else if ((col_pos == 0) && (row_pos == (size - 1))) {
+            row_pos = 1;
+            col_pos = size - 1;
+            square[row_pos][col_pos] = number;
+        }
         else {
             row_pos += 2;
             col_pos--;
