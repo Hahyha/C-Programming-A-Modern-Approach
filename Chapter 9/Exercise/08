@@ -1,0 +1,11 @@
+(a) void f(double x);
+    Valid.
+
+(b) void f(double);
+    Valid.
+
+(c) void f(x);
+    Invalid. The type of the parameter should be declared.
+
+(d) f(double x);
+    Invalid. The type of return of the function should be declared.
