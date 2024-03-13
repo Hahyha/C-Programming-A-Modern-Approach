@@ -1,0 +1,19 @@
+int i;
+double x;
+
+int f(int a, int b) {......}
+
+(a) i = f(83, 12);
+    Legal
+
+(b) x = f(83, 12);
+    Legal
+
+(c) i = f(3.15, 9.28);
+    Legal, but the fraction part of input will be discarded.
+
+(d) x = f(3.15, 9.28);
+    Legal, but the fraction part of input will be discarded.
+
+(e) f(83, 12);
+    Legal, but the result will be discarded.
