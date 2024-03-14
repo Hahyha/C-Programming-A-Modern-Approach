@@ -33,6 +33,7 @@ int evaluate_position(char board[][8]) {
                 case 'b': black += 3; break;
                 case 'n': black += 3; break;
                 case 'p': black += 1; break;
+                case ' ':             break;
                 default: printf("Something's wrong.\n"); break;
             }
         }
