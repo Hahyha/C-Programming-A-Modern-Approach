@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+/* prototypes */
 void generate_random_walk(char walk[10][10]);
 void print_array(char walk [10][10]);
+
 
 int main() {
     char board[10][10];
