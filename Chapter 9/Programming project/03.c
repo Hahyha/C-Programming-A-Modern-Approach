@@ -6,7 +6,9 @@
 void generate_random_walk(char walk[10][10]);
 void print_array(char walk [10][10]);
 
-
+/****************************************************
+* main: Calls generate_random_walk and print_array. *
+****************************************************/
 int main() {
     char board[10][10];
     
@@ -15,6 +17,9 @@ int main() {
     return 0;
 }
 
+/**********************************************************************
+* generate_random_walk: Initializes the board and completes the game. *
+**********************************************************************/
 void generate_random_walk(char walk[10][10]) {
     char character;
     int curr_pos[2] = {0, 0}, movement, row, column;
@@ -62,6 +67,9 @@ void generate_random_walk(char walk[10][10]) {
     }
 }
 
+/**********************************************
+* print_array: Prints out the completed game. *
+**********************************************/
 void print_array(char walk [10][10]) {
     int row, column;
     
